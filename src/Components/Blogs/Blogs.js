@@ -4,7 +4,7 @@ const Blogs = () => {
     return (
         <div>
             <div className="mockup-window border border-base-300">
-                <div className="md:flex lg:flex justify-center m-4 lg:px-4 lg:my-16 lg:py-24 border-t border-base-300">
+                <div className="md:flex-wrap lg:flex justify-center m-4 lg:px-4 lg:my-16 lg:py-24 border-t border-base-300">
                     <div className="card min-w-sm max-w-lg p-6 my-2 mx-4 bg-teal-700 text-primary-content">
                         <div className="card-body">
                             <h2 className="card-title text-2xl">What is the porpose of react router ?</h2>
@@ -23,7 +23,7 @@ const Blogs = () => {
                     </div>
                     <div className="card min-w-sm max-w-lg p-6 my-2 mx-4 bg-teal-700 text-primary-content">
                         <div className="card-body">
-                            <h2 className="card-title text-2xl">About useRef ?</h2>
+                            <h2 className="card-title text-2xl">About useRef :</h2>
                             <p>useRef is a built-in React Hook.The useRef Hook in React can be used to directly access DOM nodes,useRef can be used to store local mutable value in a component.</p>
                             <div className="card-actions justify-end">
                             </div>

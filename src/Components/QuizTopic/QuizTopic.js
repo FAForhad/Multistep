@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const QuizTopic = ({ quizTopic }) => {
     const { logo, name, total, id } = quizTopic
     return (
@@ -11,7 +12,7 @@ const QuizTopic = ({ quizTopic }) => {
                     <h2 className="card-title text-5xl font-bold">{name}</h2>
                     <p className='font-bold text-lg'>AVAILABLE QUIZS : {total}</p>
                     <div className="card-actions justify-end">
-                        <Link className="btn w-full" to={`/quizs/${id}`}><button>START QUIZZ</button></Link>
+                        <Link className="btn w-full" to={`/quiz/${id}`}><button>START QUIZZ</button></Link>
                     </div>
                 </div>
             </div>
