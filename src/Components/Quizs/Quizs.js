@@ -8,11 +8,11 @@ const Quizs = () => {
     return (
         <div>
             <div className="mockup-window border border-base-300">
-                <div className="flex justify-center px-4 py-16 border-t border-teal-300">
+                <div className="flex justify-center px-4 lg:py-16 border-t border-teal-300">
                     <div className="card w-full bg-teal-800 shadow-xl image-full">
                         <figure><img src={logo} alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-8xl">{name}</h2>
+                            <h2 className="card-title text-4xl md:text-5xl lg:text-8xl">{name}</h2>
                             <div className="card-actions justify-end">
                             </div>
                         </div>
