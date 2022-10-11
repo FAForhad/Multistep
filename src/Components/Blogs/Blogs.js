@@ -13,6 +13,14 @@ const Blogs = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="card min-w-sm max-w-lg p-6 mx-4 bg-teal-700 text-primary-content">
+                        <div className="card-body">
+                            <h2 className="card-title text-2xl">How dose context API works ?</h2>
+                            <p>React Context API was introduced to make the state management easier in React applications,Context API is a dependency injection mechanism that allows passing data through the component tree without having to pass props down manually at every level</p>
+                            <div className="card-actions justify-end">
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
