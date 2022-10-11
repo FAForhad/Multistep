@@ -4,7 +4,15 @@ const Blogs = () => {
     return (
         <div>
             <div className="mockup-window border border-base-300">
-                <div className="px-4 py-16 border-t border-base-300">
+                <div className="flex justify-center m-4 px-4 my-16 py-16 border-t border-base-300">
+                    <div className="card min-w-sm max-w-lg p-6 mx-4 bg-teal-700 text-primary-content">
+                        <div className="card-body">
+                            <h2 className="card-title text-2xl">What is the porpose of react router ?</h2>
+                            <p>React Router keeps your UI in sync with the URL, It has a simple API with powerful features like dynamic route matching, React Router switches from server-side to client-side, so when you click on the Link, the app checks the routes and loads the route and jump to the route</p>
+                            <div className="card-actions justify-end">
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
