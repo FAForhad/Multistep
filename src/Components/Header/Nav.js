@@ -20,7 +20,7 @@ const Nav = () => {
                                 <li><Link to='/blogs'>BLOGS</Link></li>
                             </div>
                         </div>
-                        <Link to='/' className="btn btn-ghost normal-case text-4xl text-black font-bold"><BoltSlashIcon className="h-12 w-10 mx-2 text-green-900" /> MULTISTEP </Link>
+                        <Link to='/' className="btn btn-ghost normal-case text-2xl md:text-4xl lg:text-4xl text-black font-bold"><BoltSlashIcon className="h-12 w-10 mx-2 text-green-900" /> MULTISTEP </Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <div className="menu menu-horizontal p-0 text-black text-2xl font-bold">
