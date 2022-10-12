@@ -21,7 +21,8 @@ const Options = ({ option, correctAnswer }) => {
         }
     }
     return (
-        <div>
+        <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <div onClick={(event) => correctQuiz(event)} className='p-5 border border-teal-600 mx-2 my-2 flex justify-between hover:bg-teal-900'>
                 {option}
             </div>

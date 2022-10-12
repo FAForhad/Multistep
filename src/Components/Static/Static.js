@@ -25,8 +25,8 @@ const Static = () => {
                         <YAxis />
                         <Tooltip />
                         <Legend />
-                        <Area type="monotone" dataKey="total" fill="#8884d8" stroke="#8884d8" />
-                        <Bar dataKey="total" barSize={20} fill="#413ea0" />
+                        <Area type="monotone" dataKey="total" fill="" stroke="" />
+                        <Bar dataKey="total" barSize={20} fill="#00a0a0" />
                         <Line type="monotone" dataKey="total" stroke="#ff7300" />
                     </ComposedChart>
                 </ResponsiveContainer>

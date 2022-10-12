@@ -6,7 +6,9 @@ const QuizTopic = ({ quizTopic }) => {
     const { logo, name, total, id } = quizTopic
     return (
         <div className='p-4 lg:p-8 md:p-8 lg:m-8 md:m-8'>
-            <div className="card lg:card-side bg-teal-900 shadow-xl">
+            <div className="card lg:card-side bg-teal-900 shadow-xl" data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">
                 <figure><img className='img-fluid' src={logo} alt="Album" /></figure>
                 <div className="card-body">
                     <h2 className="card-title text-5xl font-bold">{name}</h2>

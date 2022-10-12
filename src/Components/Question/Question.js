@@ -12,7 +12,8 @@ const Question = ({ quizQuestion }) => {
         })
     }
     return (
-        <div>
+        <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
             <div className='flex justify-center border border-teal-800 my-8 max-w-screen-lg mx-auto rounded-lg'>
                 <div>
                     <div className='flex justify-items-center justify-between mx-8 my-2'>
